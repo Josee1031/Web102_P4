@@ -6,8 +6,14 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'red-gradient': 'linear-gradient(to right, #ff0000, #ff7f7f)',
+      })
+    }
   },
+  variants: {},
   plugins: [],
 }
+
 
